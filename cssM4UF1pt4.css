@@ -1,0 +1,84 @@
+h1{
+  color:rgb(14, 199, 14)
+}
+
+.blanco{
+  color:white
+}
+
+body {
+  background-image: url("/CODIGOMATRIX.gif");
+  background-color: black;
+}
+
+
+div {
+  background-color: rgb(3, 53, 3);
+}
+div{
+  opacity: 0.9;
+}
+ul{
+  background-color: azure;
+}
+ul{
+  opacity: 0.8;
+}
+
+/* Este codigo sirve para poder poner imagines con el mismo formato pero separadas */
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 600px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  color:white;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  background-color: rgb(3, 53, 3);
+}
+
+form{
+  background-color: rgb(3, 53, 3);
+
+}
